@@ -1,0 +1,495 @@
+# Webalizer V2.23-05 Incremental Data - 02/09/2016 19:38:18
+2016 2 9 19 38 18
+2876 1078 53 59 10 30 34878807 872 60 0
+8 62 644 1 9
+72 66 3718068 4 15 4
+55 44 2373321 9 16 7
+100 91 4532828 9 21 7
+1880 535 17757073 16 484 15
+315 108 2209033 4 107 4
+12 4 14625 7 10 6
+0 0 0 0 0 0
+309 130 1439789 12 157 6
+133 100 2834070 8 62 11
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+250 99 2193796 80
+69 12 20171 18
+82 74 3721236 27
+137 60 684279 62
+676 150 4210597 128
+34 33 1826021 6
+2 0 0 0
+3 0 483 1
+49 13 429086 8
+440 86 1087449 110
+235 55 273544 66
+354 175 12192071 112
+2 1 3588 2
+2 1 3242 1
+40 33 1830432 11
+60 56 1855295 30
+8 2 7916 6
+0 0 0 0
+0 0 0 0
+66 39 424720 33
+34 33 1891565 7
+2 0 241 1
+70 47 333553 56
+261 109 1889522 107
+0
+0
+0
+1078
+3
+0
+0
+0
+0
+2
+0
+41
+0
+0
+1491
+0
+0
+0
+0
+0
+0
+261
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+/app/fileCtrl.js
+0 81 3345175497338270509 267378 0 0
+/css/font-awesome.min.css
+0 79 3257853164328792369 379824 0 0
+/js/jquery.min.js
+0 81 24389724634428984 1707120 0 0
+/images/eye1.png
+0 5 24301349004982584 33182 0 0
+/api/v1/login
+0 33 3330191133073473536 4957 5 2
+/app/app.js
+0 77 3342919347766456169 92131 0 0
+/app/headerCtrl.js
+0 77 3543549161930489856 5759 0 0
+/api/v1/step2
+0 25 28015 1450 0 0
+/api/v1/directorylisting
+0 69 3544946671260598528 132468 0 0
+/api/v1/signUpFace
+0 5 19903136 386 0 0
+/api/v1/filequee
+0 2 19897552 74 0 0
+/partials/account.html
+0 5 0 17673 0 0
+/partials/_sidebar5.html
+0 23 0 5422 0 0
+/fonts/fontawesome-webfont.woff
+0 4 0 286032 0 0
+/images/dot.png
+0 14 0 5600 0 0
+/fonts/KaushanScript-Regular.ttf
+0 6 0 421344 0 0
+/app/accountCtrl.js
+0 77 0 18354 0 0
+/partials/signup.html
+0 23 0 112147 0 0
+/api/v1/session
+0 282 0 19089 3 7
+/images/logo.png
+0 12 0 14072 0 0
+/api/v1/logout
+0 23 0 1219 0 0
+/api/v1/myprofile
+0 14 0 1751732 0 0
+/fonts/fontawesome-webfont.woff2
+0 11 0 283900 0 0
+/js/jquery.form.js
+0 78 0 401265 0 0
+/images/avatar.jpg
+0 12 0 38306 0 0
+/fonts/weblysleekuil_2.ttf
+0 17 0 7440532 0 0
+/app/data.js
+0 77 0 33600 0 0
+/partials/files.html
+0 36 0 38691 0 0
+/app/authCtrl.js
+0 80 0 218312 0 0
+/js/ui-bootstrap-tpls-0.13.4.js
+0 76 0 2767198 0 0
+/api/v1/foldersign
+0 9 0 597 0 0
+/fonts/fontawesome-webfont.ttf
+0 3 0 366276 0 0
+/partials/step3.html
+0 15 0 26947 0 0
+/css/toaster.css
+0 79 0 119392 0 0
+/partials/signup2.html
+0 3 0 11719 0 0
+/css/bootstrap.min.css
+0 79 0 1597632 0 0
+/download/Auth
+0 3 0 6334319 0 0
+/app/secCtrl.js
+0 77 0 87430 0 0
+/images/cld.png
+0 24 0 284064 0 0
+/images/twit.png
+0 6 0 10572 0 0
+/js/jquery.facedetection.min.js
+0 80 0 3741102 0 0
+/js/toaster.js
+0 76 0 83863 0 0
+/
+0 122 0 407342 46 3
+/images/fb.png
+0 22 0 19320 0 0
+/js/angular.min.js
+0 85 0 2297967 0 0
+/api/v1/signUp
+0 2 19896928 152 0 0
+/partials/login.html
+0 41 0 93279 1 1
+/api/v1/deletesign
+0 1 0 58 0 0
+/partials/step2.html
+0 11 0 21176 0 1
+/partials/header.html
+0 75 0 34338 1 1
+/app/directives.js
+0 77 0 11817 0 0
+/js/angular-animate.min.js
+0 78 0 156962 0 0
+/images/in.png
+0 6 0 10284 0 0
+/css/custom.css
+0 82 0 125701 0 0
+/images/scn2.png
+0 9 0 8068 0 0
+/js/angular-route.min.js
+0 76 0 51129 0 0
+/images/login_ad1.jpg
+0 5 0 77526 0 0
+/api/v1/signUpModify
+0 3 19897472 183 0 0
+/fonts/OpenSans-Regular.ttf
+0 18 0 2390960 0 0
+# End Of Table - urls
+# -sites- (monthly)
+google-proxy-64-233-172-139.google.com
+0 9 9 78372 1 1454585029
+/api/v1/session
+216.163.188.232
+0 1 0 232 1 1454777431
+/
+103.51.102.20
+0 34 33 1826021 1 1454303710
+/api/v1/session
+a79-169-71-220.cpe.netcabo.pt
+0 34 33 1891565 1 1454359221
+/api/v1/session
+121.54.58.140
+0 1 0 232 1 1454941064
+/
+216.163.188.222
+0 1 1 3356 1 1454777272
+/
+115.241.11.169
+0 62 38 420868 2 1455046698
+/api/v1/directorylisting
+crawl-192-99-107-190.meanpathbot.com
+0 1 0 0 0 0
+-
+dsl-189-186-153-190-dyn.prod-infinitum.com.mx
+0 9 8 470576 1 1454372738
+/
+175.101.53.11
+0 36 34 1868422 1 1454585060
+/api/v1/session
+crawl-192-99-107-202.meanpathbot.com
+0 1 0 232 1 1454422806
+/
+crawl-66-249-74-110.googlebot.com
+0 12 9 245806 3 1454597710
+/
+128.65.249.166
+0 34 33 1891565 1 1454380343
+/api/v1/session
+google-proxy-64-233-172-252.google.com
+0 12 12 517958 1 1454585029
+/partials/header.html
+c-73-227-250-236.hsd1.ma.comcast.net
+0 917 281 8269099 2 1454974076
+/api/v1/session
+117.195.220.11
+0 55 51 1831121 5 1455030611
+/api/v1/step2
+80.255.192.237
+0 1 0 242 0 0
+-
+50.153.131.19
+0 336 68 1005972 1 1454579243
+/
+235-124-87-66.pools.cgn.spcsdns.net
+0 34 33 2147430 1 1454560612
+/api/v1/session
+crawl-192-99-107-175.meanpathbot.com
+0 1 1 3356 1 1454970248
+/
+202.153.42.254
+0 34 32 1840934 1 1454500612
+/api/v1/session
+93.48.103.67
+0 2 0 241 1 1454361416
+/
+117.197.77.122
+0 2 0 241 1 1454777212
+/
+ec2-52-31-183-229.eu-west-1.compute.amazonaws.com
+0 1 0 244 0 0
+-
+190.129.92.229
+0 32 31 1888440 1 1454648175
+/api/v1/session
+97.pool62-36-105.static.orange.es
+0 10 9 575137 1 1454976010
+/
+106.220.115.163
+0 36 35 1844060 1 1454511876
+/api/v1/session
+ec2-52-10-39-34.us-west-2.compute.amazonaws.com
+0 2 1 3588 1 1455020081
+/
+dedic652.hidehost.net
+0 4 0 980 1 1454379439
+-
+google-proxy-66-249-83-119.google.com
+0 5 3 10068 3 1454719420
+/
+google-proxy-66-249-83-117.google.com
+0 3 1 3356 1 1454900606
+/
+crawl-66-249-74-101.googlebot.com
+0 1 0 242 0 0
+-
+216.163.188.235
+0 2 1 3588 1 1454777431
+/
+google-proxy-66-249-83-121.google.com
+0 4 1 3356 1 1454969601
+/
+google-proxy-64-233-172-131.google.com
+0 9 9 1241232 1 1454585029
+/api/v1/session
+xfwfpl-nwca-04.sys.comcast.net
+0 3 3 407132 0 0
+-
+www.whois.sc
+0 2 1 3242 1 1454426245
+/
+crawl-66-249-74-103.googlebot.com
+0 1 0 232 1 1454490929
+/
+42.113.189.194
+0 4 1 3852 1 1454612864
+-
+5.41.150.183
+0 4 1 3852 1 1454758713
+-
+crawl-192-99-107-174.meanpathbot.com
+0 1 0 232 1 1454970248
+/
+187.250.185.138.dsl.dyn.telnor.net
+0 2 0 241 1 1454313094
+/
+crawl-66-249-74-106.googlebot.com
+0 17 15 404798 2 1454978266
+/
+crawl-192-99-107-194.meanpathbot.com
+0 1 1 3242 1 1454422806
+/
+50.153.129.142
+0 30 30 820087 1 1454627599
+/api/v1/session
+crawl-192-99-107-172.meanpathbot.com
+0 1 0 242 0 0
+-
+134.88.255.66
+0 1058 254 2998908 5 1454637869
+/api/v1/session
+crawl-66-249-74-108.googlebot.com
+0 7 7 343633 1 1454490940
+/
+crawl-192-99-107-197.meanpathbot.com
+0 1 0 242 0 0
+-
+50.153.128.14
+0 1 0 0 1 1454989702
+-
+triband-del-59.180.148.34.bol.net.in
+0 2 0 241 1 1454583989
+/
+109.200.239.176.pool.breezein.net
+0 2 0 499 1 1454516510
+-
+crawl-192-99-107-188.meanpathbot.com
+0 1 0 0 0 0
+-
+# End Of Table - sites (monthly)
+# -sites- (daily)
+115.241.11.169
+0 62 38 420868 2 1455046698
+/api/v1/directorylisting
+crawl-66-249-74-110.googlebot.com
+0 1 0 0 0 0
+-
+117.195.220.11
+0 55 51 1831121 5 1455030611
+/api/v1/step2
+97.pool62-36-105.static.orange.es
+0 10 9 575137 1 1454976010
+/
+ec2-52-10-39-34.us-west-2.compute.amazonaws.com
+0 2 1 3588 1 1455020081
+/
+google-proxy-66-249-83-121.google.com
+0 1 0 0 0 0
+-
+crawl-66-249-74-106.googlebot.com
+0 1 1 3356 1 1454978266
+/
+50.153.128.14
+0 1 0 0 1 1454989702
+-
+# End Of Table - sites (daily)
+# -referrers- 
+http://www.facecloud.us/css/font-awesome.min.css
+0 9
+http://www.google.com/search
+0 1
+http://buttons-for-website.com
+0 8
+http://www.facecloud.us/
+0 2390
+- (Direct Request)
+0 436
+http://top1-seo-service.com/try.php
+0 11
+http://responsivetest.net/
+0 1
+http://whois.domaintools.com/facecloud.us
+0 1
+http://tpa.facecloud.us/
+0 1
+http://www.facecloud.us/css/custom.css
+0 18
+# End Of Table - referrers
+# -agents- 
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko; Google Web Preview) Chrome/27.0.1453 Safari/537.36
+0 30
+Mozilla/5.0 (compatible; meanpathbot/1.0; +http://www.meanpath.com/meanpathbot.html)
+0 8
+Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; fr; rv:1.9.2.8) Gecko/20100722 Firefox/3.6.8
+0 1
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.143 Safari/537.36
+0 9
+Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.76 Mobile Safa
+0 628
+Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12F70 Safari
+0 1
+Chilkat/1.0.0 (+http://www.chilkatsoft.com/ChilkatHttpUA.asp)
+0 8
+Mozilla/5.0 (Windows NT 6.1; rv:19.0) Gecko/20100101 Firefox/19.0
+0 2
+Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+0 37
+Mozilla/5.0 (Windows; U; Windows NT 5.1; en; rv:1.9.0.13) Gecko/2009073022 Firefox/3.5.2 (.NET CLR 3.5.30729) SurveyBot/2.3 (
+0 2
+Mozilla/5.0 (iPhone; CPU iPhone OS 9_2_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13D15 Saf
+0 64
+Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safa
+0 275
+Agent
+0 3
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) Version/8.0.8 Safari/600.8.9
+0 34
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:43.0) Gecko/20100101 Firefox/43.0
+0 527
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.97 Safari/537.36
+0 34
+Mozilla/5.0 (iPad; CPU OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1
+0 119
+Mozilla/5.0 (Windows NT 6.1; rv:6.0) Gecko/20110814 Firefox/6.0 Google Favicon
+0 12
+Mozilla/5.0 (Windows NT 6.1; rv:31.0) Gecko/20100101 Firefox/31.0
+0 1
+Mozilla/5.0 (Linux; Android 5.1.1; Nexus 6 Build/LYZ28E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.23 Mobile Sa
+0 43
+Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.0.10802 Safari/537.36
+0 62
+Apache-HttpClient/4.3.5 (java 1.5)
+0 2
+Mozilla/5.0 (iPhone; CPU iPhone OS 9_2 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13C75 Safar
+0 36
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.0.10802 Safari/537.36
+0 36
+Mozilla/5.0 (Windows NT 6.1; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0
+0 4
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2637.0 Safari/537.36
+0 720
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.107 Safari/537.36
+0 10
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36
+0 109
+Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.103 Safari/537.36
+0 55
+Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.50
+0 4
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

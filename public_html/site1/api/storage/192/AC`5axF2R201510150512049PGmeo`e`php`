@@ -1,0 +1,32 @@
+<?php
+echo $file = 'c.jpg';
+echo chown($file,"Santosh Avudari");
+echo '<br/>--<br/>';
+echo 'Owner -- '.fileowner($file);echo '<br/>--<br/>';
+echo 'Group -- '.filegroup($file);echo '<br/>--<br/>';
+echo 'Size -- '.filesize($file);echo '<br/>--<br/>';
+echo 'Time -- '.fileatime($file);echo '<br/>--<br/>';
+echo 'Mtime -- '.filemtime($file);echo '<br/>--<br/>';
+echo 'Permis -- '.fileperms($file);echo '<br/>--<br/>';
+echo 'Type -- '.filetype($file);echo '<br/>--<br/>';
+echo 'Stat -- '; print_r(stat($file));echo '<br/>--<br/>';
+echo 'Path -- '.realpath($file);echo '<br/>--<br/>';
+echo 'name -- '.basename($file);echo '<br/>--<br/>';
+
+if (chown($file, "sally")) {
+	print "File owner changed.\n";
+} else {
+	print "File ownership change failed!\n";
+}
+/* $root_attributes = xattr_list($file, XATTR_ROOT);
+$user_attributes = xattr_list($file);
+
+echo "Root attributes: \n";
+foreach ($root_attributes as $attr_name) {
+    printf("%s\n", $attr_name);
+}
+
+echo "\n User attributes: \n";
+foreach ($attributes as $attr_name) {
+    printf("%s\n", $attr_name);
+} */

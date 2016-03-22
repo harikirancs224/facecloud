@@ -1,0 +1,269 @@
+%PDF-1.4
+%”ÙÃ·
+% PDFsharp Version 1.32.2608.0 (verbose mode)
+% Creation date: 7/22/2015 2:37:09 PM            
+% Creation time: 0.440 seconds                   
+% File size: 7384 bytes                          
+% Pages: 1                                       
+% Objects: 11                                    
+%--------------------------------------------------------------------------------------------------
+1 0 obj   % PdfSharp.Pdf.PdfDocumentInformation
+<<
+  /CreationDate (D:20150722143709-12'00')
+  /Creator (PDFsharp 1.32.2608-g \(www.pdfsharp.net\))
+  /Producer (PDFsharp 1.32.2608-g \(www.pdfsharp.net\))
+  /Title (Receipt)
+>>
+endobj
+%--------------------------------------------------------------------------------------------------
+2 0 obj   % PdfSharp.Pdf.Advanced.PdfCatalog
+<<
+  /Pages 3 0 R
+  /Type /Catalog
+>>
+endobj
+%--------------------------------------------------------------------------------------------------
+3 0 obj   % PdfSharp.Pdf.PdfPages
+<<
+  /Count 1
+  /Kids [4 0 R]
+  /Type /Pages
+>>
+endobj
+%--------------------------------------------------------------------------------------------------
+4 0 obj   % PdfSharp.Pdf.PdfPage
+<<
+  /Contents 5 0 R
+  /Group
+  <<
+    /CS /DeviceRGB
+    /I false
+    /K false
+    /S /Transparency
+  >>
+  /MediaBox [0 0 595 842]
+  /Parent 3 0 R
+  /Resources
+  <<
+    /ExtGState
+    <<
+      /GS0 6 0 R
+      /GS1 9 0 R
+    >>
+    /Font
+    <<
+      /F0 8 0 R
+      /F1 11 0 R
+    >>
+    /ProcSet [/PDF/Text/ImageB/ImageC/ImageI]
+  >>
+  /Type /Page
+>>
+endobj
+%--------------------------------------------------------------------------------------------------
+5 0 obj   % PdfSharp.Pdf.Advanced.PdfContent
+<<
+  /Length 1384
+>>
+stream
+q
+1 0 0 -1 0 842 cm -100 Tz
+q
+BT
+/GS0 gs
+/F0 -10 Tf
+120.8228 23.3417 Td (SHANKAM INSTITUTE OF INFORMATION TECHNOLOGY - KARIMNAGAR) Tj
+ET
+1 w
+0 J
+0 j
+[]0 d
+/GS1 gs
+20 35 m
+20 385 l
+S
+580 35 m
+580 385 l
+S
+20 385 m
+580 385 l
+S
+20 35 m
+580 35 l
+S
+BT
+268.7549 48.3417 Td (Debit Voucher) Tj
+ET
+20 53 m
+580 53 l
+S
+20 73 m
+580 73 l
+S
+20 95 m
+580 95 l
+S
+BT
+25 65 Td (S.No : ) Tj
+/F1 -10 Tf
+35 0 Td (SDV1) Tj
+/F0 -10 Tf
+365 0 Td (Date : ) Tj
+/F1 -10 Tf
+35 0 Td (22/07/2015) Tj
+/F0 -10 Tf
+-435 25 Td (Name : ) Tj
+/F1 -10 Tf
+55 0 Td (tea) Tj
+/F0 -10 Tf
+-55 20 Td (Towards : ) Tj
+/F1 -10 Tf
+55 0 Td (ss) Tj
+ET
+20 120 m
+580 120 l
+S
+20 170 m
+380 170 l
+S
+380 120 m
+380 323 l
+S
+380 150 m
+580 150 l
+S
+BT
+/F0 -10 Tf
+425 140 Td (\(INR\) : ) Tj
+35 0 Td (2000.00) Tj
+ET
+380 300 m
+580 300 l
+S
+BT
+425 315 Td (\(INR\) : ) Tj
+35 0 Td (2000.00) Tj
+/F1 -10 Tf
+-435 -175 Td (Amount in words :  INR  Two Thousands Only..) Tj
+/F0 -10 Tf
+0 60 Td (Mode Of Payment : ) Tj
+/F1 -10 Tf
+95 0 Td (Cash) Tj
+ET
+20 323 m
+580 323 l
+S
+BT
+/F0 -10 Tf
+400 335 Td (For SHANKAM IIT) Tj
+63 25 Td (Authorized Signature) Tj
+-438 0 Td (Receiver Signature) Tj
+/F1 -8 Tf
+-2 35 Td (T & C apply *) Tj
+217 0 Td (This is a Computer Generated Receipt/Debit Voucher) Tj
+ET
+20 370 m
+580 370 l
+S
+BT
+50 380 Td (OFFICE - OPP : TWO TOWN POLICE STATION, ZAREEN COMPLEX, 2nd FLOOR, KARIMNAGAR - 505001. PH : 0878 - 6502888, +91 97036 80808.) Tj
+ET
+Q
+Q
+endstream
+endobj
+%--------------------------------------------------------------------------------------------------
+6 0 obj   % PdfSharp.Pdf.Advanced.PdfExtGState
+<<
+  /ca 1
+  /Type /ExtGState
+>>
+endobj
+%--------------------------------------------------------------------------------------------------
+7 0 obj   % PdfSharp.Pdf.Advanced.PdfFontDescriptor
+<<
+  /Ascent 891
+  /CapHeight 662
+  /Descent -216
+  /Flags 32
+  /FontBBox [-558 -307 2000 1026]
+  /FontName /TimesNewRoman,Bold
+  /ItalicAngle 0
+  /StemV 0
+  /Type /FontDescriptor
+  /XHeight 457
+>>
+endobj
+%--------------------------------------------------------------------------------------------------
+8 0 obj   % PdfSharp.Pdf.Advanced.PdfTrueTypeFont
+<<
+  /BaseFont /TimesNewRoman,Bold
+  /Encoding /WinAnsiEncoding
+  /FirstChar 0
+  /FontDescriptor 7 0 R
+  /LastChar 255
+  /Subtype /TrueType
+  /Type /Font
+  /Widths [777 777 777 777 777 777 777 777 777 777 777 777 777 777 777 777 777 777 777 777 777 777 777 777 777 777 777 777 777 777 777 777 250 333 555 500 500 1000 833 277 333 333 500 569 250 333 250 277 500 500 500 500 500 500 500 500 500 500 333 333 569 569 569 500 930 722 666 722 722 666 610 777 777 389 500 777 666 943 722 777 610 777 722 556 666 722 722 1000 722 722 666 333 277 333 581 500 333 500 556 443 556 443 333 500 556 277 333 556 277 833 556 500 556 556 443 389 333 556 500 722 500 500 443 394 220 394 520 777 500 777 333 500 500 1000 500 500 333 1000 556 333 1000 777 666 777 777 333 333 500 500 350 500 1000 333 1000 389 333 722 777 443 722 250 333 500 500 500 500 220 500 333 747 299 500 569 333 747 500 399 548 299 299 333 576 540 333 333 299 330 500 750 750 750 500 722 722 722 722 722 722 1000 722 666 666 666 666 389 389 389 389 722 722 777 777 777 777 777 569 777 722 722 722 722 722 610 556 500 500 500 500 500 500 722 443 443 443 443 443 277 277 277 277 500 556 500 500 500 500 500 548 500 556 556 556 556 500 556 500]
+>>
+endobj
+%--------------------------------------------------------------------------------------------------
+9 0 obj   % PdfSharp.Pdf.Advanced.PdfExtGState
+<<
+  /CA 1
+  /Type /ExtGState
+>>
+endobj
+%--------------------------------------------------------------------------------------------------
+10 0 obj   % PdfSharp.Pdf.Advanced.PdfFontDescriptor
+<<
+  /Ascent 891
+  /CapHeight 662
+  /Descent -216
+  /Flags 32
+  /FontBBox [-568 -307 2000 1007]
+  /FontName /TimesNewRoman
+  /ItalicAngle 0
+  /StemV 0
+  /Type /FontDescriptor
+  /XHeight 447
+>>
+endobj
+%--------------------------------------------------------------------------------------------------
+11 0 obj   % PdfSharp.Pdf.Advanced.PdfTrueTypeFont
+<<
+  /BaseFont /TimesNewRoman
+  /Encoding /WinAnsiEncoding
+  /FirstChar 0
+  /FontDescriptor 10 0 R
+  /LastChar 255
+  /Subtype /TrueType
+  /Type /Font
+  /Widths [777 777 777 777 777 777 777 777 777 777 777 777 777 777 777 777 777 777 777 777 777 777 777 777 777 777 777 777 777 777 777 777 250 333 408 500 500 833 777 180 333 333 500 563 250 333 250 277 500 500 500 500 500 500 500 500 500 500 277 277 563 563 563 443 920 722 666 666 722 610 556 722 722 333 389 722 610 889 722 722 556 722 666 556 610 722 722 943 722 722 610 333 277 333 469 500 333 443 500 443 500 443 333 500 500 277 277 500 277 777 500 500 500 500 333 389 277 500 500 722 500 500 443 479 200 479 541 777 500 777 333 500 443 1000 500 500 333 1000 556 333 889 777 610 777 777 333 333 443 443 350 500 1000 333 979 389 333 722 777 443 722 250 333 500 500 500 500 200 500 333 759 275 500 563 333 759 500 399 548 299 299 333 576 453 333 333 299 310 500 750 750 750 443 722 722 722 722 722 722 889 666 610 610 610 610 333 333 333 333 722 722 722 722 722 722 722 563 722 722 722 722 722 722 556 500 443 443 443 443 443 443 666 443 443 443 443 443 277 277 277 277 500 500 500 500 500 500 500 548 500 500 500 500 500 500 500 500]
+>>
+endobj
+%--------------------------------------------------------------------------------------------------
+xref
+0 12
+0000000000 65535 f 
+0000000411 00000 n 
+0000000744 00000 n 
+0000000934 00000 n 
+0000001123 00000 n 
+0000001617 00000 n 
+0000003191 00000 n 
+0000003378 00000 n 
+0000003735 00000 n 
+0000005093 00000 n 
+0000005280 00000 n 
+0000005633 00000 n 
+trailer
+<<
+  /ID [<4CE3C0E6D598BF478DFCA317F033A40D><4CE3C0E6D598BF478DFCA317F033A40D>]
+  /Info 1 0 R
+  /Root 2 0 R
+  /Size 12
+>>
+startxref
+6983
+%%EOF

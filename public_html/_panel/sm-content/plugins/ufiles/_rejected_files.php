@@ -1,0 +1,1 @@
+<?phpfile_posts("reject","_rejected_files");

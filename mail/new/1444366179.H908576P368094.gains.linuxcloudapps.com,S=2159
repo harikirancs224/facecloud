@@ -1,0 +1,59 @@
+Return-path: <>
+Envelope-to: yksabr8@gains.linuxcloudapps.com
+Delivery-date: Fri, 09 Oct 2015 10:19:39 +0530
+Received: from mailnull by gains.linuxcloudapps.com with local (Exim 4.85)
+	id 1ZkPch-001Xkt-OV
+	for yksabr8@gains.linuxcloudapps.com; Fri, 09 Oct 2015 10:19:39 +0530
+X-Failed-Recipients: sindhu@wayitsolutions.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@gains.linuxcloudapps.com>
+To: yksabr8@gains.linuxcloudapps.com
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1ZkPch-001Xkt-OV@gains.linuxcloudapps.com>
+Date: Fri, 09 Oct 2015 10:19:39 +0530
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  sindhu@wayitsolutions.com
+    No Such User Here"
+
+------ This is a copy of the message, including all the headers. ------
+
+Return-path: <yksabr8@gains.linuxcloudapps.com>
+Received: from yksabr8 by gains.linuxcloudapps.com with local (Exim 4.85)
+	(envelope-from <yksabr8@gains.linuxcloudapps.com>)
+	id 1ZkPch-001Xkj-ER
+	for sindhu@wayitsolutions.com; Fri, 09 Oct 2015 10:19:39 +0530
+To: sindhu@wayitsolutions.com
+Subject: Step2 Verification
+X-PHP-Script: site1.facecloud.us/api/v1/index.php for 175.101.53.11
+Date: Fri, 9 Oct 2015 10:19:39 +0530
+From: Facecloud Security <connect@facecloud.us>
+Message-ID: <666085fb8153868c5fc52883827985d3@site1.facecloud.us>
+X-Priority: 3
+X-Mailer: PHPMailer 5.1 (phpmailer.sourceforge.net)
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_666085fb8153868c5fc52883827985d3"
+Sender:  <yksabr8@gains.linuxcloudapps.com>
+
+--b1_666085fb8153868c5fc52883827985d3
+Content-Type: text/plain; charset = "iso-8859-1"
+Content-Transfer-Encoding: 8bit
+
+Dear User, Your Verification Code is 00N3Best RegardsSMTITLEconnect@facecloud.us
+
+
+--b1_666085fb8153868c5fc52883827985d3
+Content-Type: text/html; charset = "iso-8859-1"
+Content-Transfer-Encoding: 8bit
+
+Dear User, Your Verification Code is 00N3<br/>Best Regards<br/>SMTITLE<br/>connect@facecloud.us
+
+
+
+--b1_666085fb8153868c5fc52883827985d3--
+

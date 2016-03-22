@@ -1,0 +1,87 @@
+<div class="page-content">
+<div class="row">
+<div class="space-6"></div>
+<div class="clr1"></div>
+<div class="col-sm-2"></div>
+<div class="col-sm-7">
+<div class="col-sm-4">
+		<div class="row log_block">
+			<center><img src="images/cld.png" style=""/></center>
+			<div class="clr1"></div>
+			<h1 class="lg">Welcome to Cloud Storage</h1>
+			<div class="clr1"></div>
+			<a href="#/signup"><u>Need an account?</u></a>
+		</div>
+	</div>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1" />
+<div class="col-sm-8">
+    <div id="login-box1" class="row login-box visible widget-box no-border">
+        <div class="widget-body">
+            <div class="widget-main">
+                <h4 class="header blue lighter bigger vtitle1">
+                    <i class="icon-coffee green"></i>
+                   <center> <a href="#">Login </a></center>
+                </h4>
+				<div class="clr1"></div>
+                <div class="space-16"></div>
+
+                <form name="loginForm" class="form-horizontal iconable" role="form">
+                    <div class="form-group">
+                       <!--  <label class="col-sm-5 col-sm-offset-1 control-label no-padding-right" for="email"> Email / Phone </label> -->
+                        <div class="col-sm-10 col-sm-offset-1">
+                           <span class="block input-icon input-icon-right">
+                                <input type="text" class="form-control1" placeholder="Email / Phone" name="email" ng-model="login.email" required focus/>
+                                <i class="inputicon ace-icon fa fa-user"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                      <!--   <label class="col-sm-5 col-sm-offset-1 control-label no-padding-right" for="password"> Password </label> -->
+                        <div class="col-sm-10 col-sm-offset-1">
+                           <span class="block input-icon input-icon-right">
+                                <input type="password" class="form-control1" placeholder="Password" ng-model="login.password" required/>
+                                <i class="inputicon ace-icon fa fa-lock"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="space"></div>
+                     <div class="clearfix">
+                                                        <div class="row">
+                         <label class="col-sm-4 control-label no-padding-right"> </label>
+                        <div class="col-sm-8">
+                            <button type="submit" class="width-35 btn btn-sm btn-primary1" ng-click="doLogin(login)" data-ng-disabled="loginForm.$invalid">
+                               <!--  <i class="ace-icon fa fa-key"></i> -->
+                                Login
+                            </button>
+                                                            </div>
+                        </div>
+                    </div>
+					<div class="clr1"></div>
+                        <div class="space-4"></div>
+						
+                <span class="lbl col-sm-6"> </span><div class="col-sm-6 other pull-right">or login with
+					<div id="status" style="font-size: 9px;"></div>
+	
+					<fb:login-button scope="email,public_profile,user_friends" onlogin="checkLoginState();"><img src="images/fb.png" style=""/></fb:login-button>
+					<!--<img src="images/fb.png" style=""/>-->
+					
+							</div>
+                </form>
+
+                
+                
+            </div><!-- /widget-main -->
+
+            
+        </div><!-- /widget-body -->
+    </div><!-- /login-box -->
+
+
+</div>
+</div>
+</div><!-- /position-relative -->
+<!-- <div class="col-md-5">
+	<img src="images/login_ad.jpg" style="opacity:0.4"/>
+</div> -->
+</div>
+</div><!-- /.page-content -->

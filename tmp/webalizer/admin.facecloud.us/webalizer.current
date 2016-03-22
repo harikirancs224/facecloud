@@ -1,0 +1,208 @@
+# Webalizer V2.23-05 Incremental Data - 02/09/2016 19:41:40
+2016 2 9 19 41 40
+463 170 3 29 4 5 5965092 47 5 0
+3 24 291 3 9
+0 0 0 0 0 0
+0 0 0 0 0 0
+41 40 1750589 1 6 1
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+50 22 680309 1 13 1
+372 108 3534194 3 28 3
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+57 34 1641120 4
+291 50 1696958 19
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+24 24 196116 5
+41 40 1750589 6
+0 0 0 0
+0 0 0 0
+50 22 680309 13
+0
+0
+0
+170
+0
+0
+0
+0
+0
+0
+0
+0
+5
+0
+288
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+/sm-content/theme/adminer/local/bootstrap.min.js
+0 15 7596838515014526330 63638 0 0
+/sm-content/theme/adminer/css/font-awesome.min.css
+0 16 0 53422 0 0
+/sm-content/theme/adminer/css/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css
+0 16 0 4152 0 0
+/sm-content/theme/adminer/fonts/glyphicons-halflings-regular.woff
+0 16 0 46584 0 0
+/sm-content/theme/adminer/local/jquery-ui.min.js
+0 15 0 476628 0 0
+/sm-content/theme/adminer/img/avatar3.png
+0 16 0 14072 0 0
+/sm-content/theme/adminer/css/morris/morris.css
+0 16 0 856 0 0
+/sm-content/theme/adminer/css/bootstrap.min.css
+0 16 0 219090 0 0
+/sm-content/theme/adminer/css/datepicker/datepicker3.css
+0 16 0 67490 0 0
+/sm-content/theme/adminer/js/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js
+0 15 0 66646 0 0
+/sm-content/theme/adminer/login_files/wordpress-logo.png
+0 4 0 21108 0 0
+/sm-content/theme/adminer/js/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js
+0 15 0 274874 0 0
+/favicon.ico
+0 44 0 965559 0 0
+/sm-content/theme/adminer/css/AdminLTE.css
+0 16 0 185668 0 0
+/sm-content/theme/adminer/js/plugins/iCheck/icheck.min.js
+0 15 0 9032 0 0
+/sm-content/theme/adminer/css/jvectormap/jquery-jvectormap-1.2.2.css
+0 16 0 1384 0 0
+/sm-content/theme/_root/js/app.js
+0 28 0 1190411 0 0
+/sm-content/theme/adminer/fonts/fontawesome-webfont.woff2
+0 4 0 128928 0 0
+/sm-content/theme/adminer/login_files/wp-admin.min.css
+0 4 0 343449 0 0
+/sm-content/theme/adminer/login_files/colors-fresh.min.css
+0 4 0 108570 0 0
+/sm-content/theme/adminer/js/plugins/datepicker/bootstrap-datepicker.js
+0 15 0 93676 0 0
+/
+0 42 0 884926 5 2
+/sm-content/theme/adminer/css/daterangepicker/daterangepicker-bs3.css
+0 16 0 9664 0 0
+/sm-content/theme/adminer/login_files/buttons.min.css
+0 4 0 21021 0 0
+/sm-content/theme/adminer/js/AdminLTE/app.js
+0 15 0 95034 0 0
+/sm-content/theme/adminer/local/jquery.min.js
+0 15 0 168490 0 0
+/sm-content/theme/adminer/js/plugins/jvectormap/jquery-jvectormap-world-mill-en.js
+0 15 0 288626 0 0
+/sm-content/theme/adminer/js/plugins/daterangepicker/daterangepicker.js
+0 14 0 104568 0 0
+/sm-content/theme/adminer/js/plugins/jqueryKnob/jquery.knob.js
+0 15 0 49676 0 0
+# End Of Table - urls
+# -sites- (monthly)
+115.241.11.169
+0 24 24 196116 1 1455046895
+/
+c-73-227-250-236.hsd1.ma.comcast.net
+0 407 115 4258152 3 1454993182
+/
+50.153.128.14
+0 32 31 1510824 1 1454989586
+/
+# End Of Table - sites (monthly)
+# -sites- (daily)
+115.241.11.169
+0 24 24 196116 1 1455046895
+/
+c-73-227-250-236.hsd1.ma.comcast.net
+0 316 53 1827254 1 1454993182
+/
+50.153.128.14
+0 32 31 1510824 1 1454989586
+/
+# End Of Table - sites (daily)
+# -referrers- 
+http://admin.facecloud.us/sm-content/theme/adminer/css/font-awesome.min.css
+0 4
+- (Direct Request)
+0 7
+http://admin.facecloud.us/sm-content/theme/adminer/css/bootstrap.min.css
+0 4
+http://admin.facecloud.us/
+0 448
+# End Of Table - referrers
+# -agents- 
+Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.76 Mobile Safa
+0 27
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:43.0) Gecko/20100101 Firefox/43.0
+0 50
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.97 Safari/537.36
+0 41
+Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.0.10802 Safari/537.36
+0 24
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2637.0 Safari/537.36
+0 321
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

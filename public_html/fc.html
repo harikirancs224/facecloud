@@ -1,0 +1,130 @@
+<!doctype html>
+<html>
+	<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1"/>
+		<title>Facebook Detection using JavaScript</title>
+
+		<!-- Include jQuery and Face Detection Library -->
+		<!--<script src="jquery-1.11.1.min.js"></script> -->
+		
+
+		<style type="text/css">
+		body{
+			margin:0em;padding:0em;
+		}
+			#photo
+			{
+				position: relative;
+				width: 100%;
+			}
+
+			.box
+			{
+				position: absolute;
+				display: inline-block;
+				z-index: 999;
+			}
+
+			.box input
+			{
+				visibility: hidden;
+				max-width: 95%; 
+				position: relative;
+			}
+
+			.box:hover
+			{
+				border-width: 4px;
+				border-color: grey;
+				border-style: solid;
+			}
+
+			.box:hover input
+			{
+				visibility: visible;
+			}
+
+			#picture1
+			{
+				max-width: 100%;
+			}
+
+			#carbonads { 
+			    max-width: 300px; 
+			    background: #f8f8f8;
+			}
+
+			.carbon-text { 
+			    display: block; 
+			    width: 130px; 
+			}
+
+			.carbon-poweredby { 
+			    float: right; 
+			}
+			.carbon-text {
+			    padding: 8px 0; 
+			}
+
+			#carbonads { 
+			    padding: 15px;
+			    border: 1px solid #ccc; 
+			}
+
+			.carbon-text {
+			    font-size: 12px;
+			    color: #333333;
+			    text-decoration: none;
+			}
+
+
+			.carbon-poweredby {
+			    font-size: 75%;
+			    text-decoration: none;
+			}
+
+			#carbonads { 
+				 position: fixed; 
+			    top: 5px;
+			    right: 5px;
+			}
+			#canvas{
+				position:fixed;
+				right:0;top:0;
+			
+			}
+		</style>
+	</head>
+	<body>
+		<div id="photo">
+		</div>	
+		<canvas id="canvasi"></canvas>
+
+
+
+		<!--  Here "picture1" can be the unique id of an image. -->
+		<button onclick="load_picture('picture1', 'arsenal.jpeg')">Load Arsenal Image</button>
+		<br><br>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.facedetection.min.js"></script>
+		<script src="js/jquery.form.js"></script>
+  <script src="js/angular.min.js"></script>
+  <script src="js/angular-route.min.js"></script>
+  <script src="js/angular-animate.min.js" ></script>
+<!--  <script src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.13.4.js"></script>-->
+  <script src="js/ui-bootstrap-tpls-0.13.4.js"></script>
+  <script src="js/toaster.js"></script>
+  <script src="app/app.js"></script>
+  <script src="app/data.js"></script>
+  <script src="app/directives.js"></script>
+  <script src="app/headerCtrl.js"></script>
+  <script src="app/authCtrl.js"></script>
+  <script src="app/secCtrl.js"></script>
+  <script src="app/fileCtrl.js"></script>
+<script>
+			
+		</script>
+
+
+	</body>
+</html>	

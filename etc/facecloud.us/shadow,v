@@ -1,0 +1,54 @@
+head	1.3;
+access;
+symbols;
+locks
+	yksabr8:1.3; strict;
+comment	@# @;
+
+
+1.3
+date	2016.01.11.05.17.12;	author yksabr8;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2015.10.09.04.12.05;	author yksabr8;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2015.10.09.04.12.05;	author yksabr8;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@"Modified by /usr/local/cpanel/cpanel "
+@
+text
+@connect:$1$S97zoM0E$PUbOHxDWmlHcpLuF5Plld1:16717::::::
+harikirancs224:$1$zSEgRjb5$nztoamwDBGMiwYMavCel11:16811::::::
+@
+
+
+1.2
+log
+@"Modified by /usr/local/cpanel/cpanel "
+@
+text
+@d2 1
+@
+
+
+1.1
+log
+@"Modified by /usr/local/cpanel/cpanel "
+@
+text
+@d1 1
+@

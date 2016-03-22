@@ -1,0 +1,192 @@
+# Webalizer V2.23-05 Incremental Data - 02/09/2016 05:05:52
+2016 2 9 5 5 52
+234 101 1 29 5 2 4123103 32 2 0
+1 122 122 8 9
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+78 31 1021895 1 16 1
+156 70 3101208 1 16 1
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+34 33 1596471 4
+122 37 1504737 12
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+78 31 1021895 16
+0
+0
+0
+101
+0
+0
+0
+0
+0
+0
+0
+0
+2
+0
+131
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+/sm-content/theme/adminer/local/bootstrap.min.js
+0 7 10623164443409711104 31819 0 0
+/sm-content/theme/adminer/css/font-awesome.min.css
+0 7 39000624 26711 0 0
+/sm-content/theme/adminer/css/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css
+0 7 39000960 2076 0 0
+/sm-content/theme/adminer/fonts/glyphicons-halflings-regular.woff
+0 6 0 23292 0 0
+/sm-content/theme/adminer/local/jquery-ui.min.js
+0 7 39002160 238314 0 0
+/sm-content/theme/adminer/img/avatar3.png
+0 7 10623164443409711104 7036 0 0
+/sm-content/theme/adminer/css/morris/morris.css
+0 7 39000208 428 0 0
+/sm-content/theme/adminer/css/bootstrap.min.css
+0 7 39000400 109545 0 0
+/sm-content/theme/adminer/css/datepicker/datepicker3.css
+0 7 10623164443409711104 33745 0 0
+/sm-content/theme/adminer/js/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js
+0 7 39002496 33323 0 0
+/sm-content/theme/adminer/login_files/wordpress-logo.png
+0 2 10623164443409711104 7036 0 0
+/sm-content/theme/adminer/js/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js
+0 7 39237488 137437 0 0
+/favicon.ico
+0 18 38999792 652454 0 0
+/sm-content/theme/adminer/css/AdminLTE.css
+0 7 39002080 92834 0 0
+/sm-content/theme/adminer/js/plugins/iCheck/icheck.min.js
+0 7 8589940992 4516 0 0
+/sm-content/theme/adminer/css/jvectormap/jquery-jvectormap-1.2.2.css
+0 7 10623164443409711104 692 0 0
+/sm-content/theme/_root/js/app.js
+0 27 39002576 1154845 0 0
+/sm-content/theme/adminer/fonts/fontawesome-webfont.woff2
+0 3 8589940992 64464 0 0
+/sm-content/theme/adminer/login_files/wp-admin.min.css
+0 2 38999568 114483 0 0
+/sm-content/theme/adminer/login_files/colors-fresh.min.css
+0 2 72057594037927936 36190 0 0
+/sm-content/theme/adminer/js/plugins/datepicker/bootstrap-datepicker.js
+0 7 8589940992 46838 0 0
+/
+0 30 0 936865 2 1
+/sm-content/theme/adminer/css/daterangepicker/daterangepicker-bs3.css
+0 7 10623164443409711104 4832 0 0
+/sm-content/theme/adminer/login_files/buttons.min.css
+0 2 38999984 7007 0 0
+/sm-content/theme/adminer/js/AdminLTE/app.js
+0 7 39238080 47517 0 0
+/sm-content/theme/adminer/local/jquery.min.js
+0 7 39001744 84245 0 0
+/sm-content/theme/adminer/js/plugins/jvectormap/jquery-jvectormap-world-mill-en.js
+0 7 39002320 144313 0 0
+/sm-content/theme/adminer/js/plugins/daterangepicker/daterangepicker.js
+0 7 8589940992 52284 0 0
+/sm-content/theme/adminer/js/plugins/jqueryKnob/jquery.knob.js
+0 7 10623164443409711104 24838 0 0
+# End Of Table - urls
+# -sites- (monthly)
+c-73-227-250-236.hsd1.ma.comcast.net
+0 234 101 4123103 2 1454994351
+/
+# End Of Table - sites (monthly)
+# -sites- (daily)
+c-73-227-250-236.hsd1.ma.comcast.net
+0 156 70 3101208 1 1454994351
+/
+# End Of Table - sites (daily)
+# -referrers- 
+http://tpa.facecloud.us/sm-content/theme/adminer/css/font-awesome.min.css
+0 3
+http://tpa.facecloud.us/sm-content/theme/adminer/css/bootstrap.min.css
+0 3
+- (Direct Request)
+0 5
+http://tpa.facecloud.us//
+0 19
+http://tpa.facecloud.us/
+0 204
+# End Of Table - referrers
+# -agents- 
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:43.0) Gecko/20100101 Firefox/43.0
+0 78
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2637.0 Safari/537.36
+0 156
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

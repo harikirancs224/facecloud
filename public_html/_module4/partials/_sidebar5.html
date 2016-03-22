@@ -1,0 +1,18 @@
+<center><button class="button blue" ng-click="new_file();">New Files</button></center>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1" />
+<script type="text/ng-template" id="item.html">
+	<a href="#/files/{{auth}}?router={{item.link}}"  ng-click="exploreme(item);"><i class="fa fa-folder-open{{incls(item);}}"></i>&nbsp;{{ item.folder }}</a>
+	<ul><li ng-repeat="item in item.sublist"  data-ng-if="item.type == 'folder'" ng-include="'item.html'"></li></ul>
+</script>
+
+<ul class="dmenu">
+	
+	<li><a href="#/files/{{auth}}?route" ng-click="exploreme('all');"><i class="fa fa-folder-open"></i>&nbsp;My Folders</a>
+		<ul>
+		   <li ng-repeat="item in folders" data-ng-if="item.type == 'folder'" ng-include="'item.html'"></li>
+		</ul> 
+	</li>
+	<li><i class="fa fa-clock-o"></i>Recent</li>
+	<li><i class="fa fa-star"></i>Starred</li>
+	<li><i class="fa fa-recycle"></i>Bin</li>
+</ul>

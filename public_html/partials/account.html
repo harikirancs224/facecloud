@@ -1,0 +1,123 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1" />
+</head>
+<div class="page-content noselect">
+    <div class="row">
+        <div class="space-6"></div>
+        <div class="col-sm-2 left-side">
+			<div class="row"><div ng-include="'partials/_sidebar5.html?v3'"></div></div>
+		</div>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1"/>
+		
+        <div class="col-sm-10 right-sideblock">
+            <div id="login-box" class="login-box visible widget-box no-border no-padding">
+				<div class="striplinks padding">
+					
+					<div id="preview" ng-hide="true;"></div>
+				</div>
+				<div class="col-sm-6">
+					<h4 class="header blue lighter bigger vtitle1">
+                   <center> <a href="">Update Details</a></center>
+                </h4>
+                <div class="widget-body">
+                    <div class="widget-main">
+						 <form name="signupForm" class="form-horizontal ss" role="form">
+                            <div class="form-group">
+                                <!-- <label class="col-sm-5 control-label no-padding-right" for="email">Email</label> -->
+                                <div class="col-sm-10">
+                                    <span class="block input-icon input-icon-right">
+                                        <input type="text" class="form-control1" placeholder="Email" name="email" ng-model="profile.email" focus/>
+                                        <span ng-show="signupForm.email.$error.email" class="help-inline">Email is not valid</span> 
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                              <!--   <label class="col-sm-5 control-label no-padding-right" for="name">Name</label> -->
+                                <div class="col-sm-10">
+                                    <span class="block input-icon input-icon-right">
+                                <input type="text" class="form-control1" placeholder="Name" ng-model="profile.name" />
+                            </span>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                               <!--  <label class="col-sm-5 control-label no-padding-right" for="phone">Phone</label> -->
+                                <div class="col-sm-10">
+                                    <span class="block input-icon input-icon-right">
+                                <input type="text" class="form-control1" placeholder="Phone" name="phone" ng-model="profile.phone"/>
+                            </span>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <!-- <label class="col-sm-5 control-label no-padding-right" for="address">Address</label> -->
+                                <div class="col-sm-10">
+                                    <span class="block input-icon input-icon-right">
+                                <input type="text" class="form-control1" placeholder="Address" ng-model="profile.address" />
+                            </span>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <span class="lbl col-sm-4"> </span>
+                                <div class="col-sm-6">
+                                    <button type="submit" class="width-35 btn btn-sm btn-primary1" ng-click="signUp(profile)" data-ng-disabled="signupForm.$invalid">
+                                        Update
+                                    </button>
+                                </div>
+                            </div>
+                            </fieldset>
+                            
+                        </form>
+                 
+                    </div>
+                </div>
+                </div>
+				<div class="col-sm-6">
+				<div class="col-md-12">
+					<div class="row">
+						<div class="col-md-6" style="display:none;"><img src="{{profile.face}}"></div>
+						<div class="col-md-6">
+							<a class="width-35 btn btn-sm btn-primary1" href="#/security-signup">Manage Security Signup</a>
+						</div>
+						<div class="col-md-6"><div class="eye"><img src="images/eye1.png" style="max-width: 100%;"></div></div>
+					</div>
+				</div>
+				<h4 class="header blue lighter bigger vtitle1">
+                   <center> <a href="#">Change Password</a></center>
+                </h4>
+				<form name="signupForm" class="form-horizontal ss ng-pristine ng-valid" role="form">
+					<div class="form-group">
+						<div class="col-sm-10">
+							<span class="block input-icon input-icon-right">
+								<input type="password" ng-model="password.current" class="form-control1" placeholder="Current Password"/>
+							</span>
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="col-sm-10">
+							<span class="block input-icon input-icon-right">
+								<input type="text" ng-model="password.new" class="form-control1" placeholder="New Password"/>
+							</span>
+						</div>
+					</div>
+					 <div class="form-group">
+						<div class="col-sm-10">
+							<span class="block input-icon input-icon-right">
+								<input type="text" ng-model="password.confirm" class="form-control1" placeholder="Retype Password"/>
+							</span>
+						</div>
+					</div>
+					<span class="lbl col-sm-2"> </span>
+					<div class="form-group">	
+						<div class="col-sm-3">
+							<button type="submit" class="width-35 btn btn-sm btn-primary1" ng-click="changepswrd(password);">Change Password</button>
+						</div> 
+						
+					</div>
+					</form>
+				</div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /.page-content -->
+</html>

@@ -1,0 +1,243 @@
+# Webalizer V2.23-05 Incremental Data - 10/23/2015 10:42:09
+2015 10 23 10 42 9
+56 36 9 31 5 3 2136588 10 3 0
+8 39 39 19 23
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+2 1 203 1 1 1
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+54 35 2136385 8 9 2
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+15 0 469245 1
+39 35 1667140 8
+0 0 0 0
+2 1 203 1
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0
+0
+0
+36
+0
+0
+0
+0
+0
+15
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+5
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+/app/fileCtrl.js
+0 2 0 16816 0 0
+/css/font-awesome.min.css
+0 1 14749232 23739 0 0
+/js/jquery.min.js
+0 2 14506864 189680 0 0
+/app/app.js
+0 2 14507408 7844 0 0
+/app/headerCtrl.js
+0 2 14508208 726 0 0
+/api/v1/session
+0 4 14750208 188 0 0
+/images/logo.png
+0 1 14750288 7036 0 0
+/fonts/fontawesome-webfont.woff2
+0 1 14750064 56780 0 0
+/js/jquery.form.js
+0 2 14506784 53502 0 0
+/fonts/weblysleekuil_2.ttf
+0 1 14750816 676412 0 0
+/app/data.js
+0 2 14506704 4800 0 0
+/app/authCtrl.js
+0 2 14505840 3844 0 0
+/js/ui-bootstrap-tpls-0.13.4.js
+0 2 14507872 395314 0 0
+/css/toaster.css
+0 1 14749536 7462 0 0
+/css/bootstrap.min.css
+0 1 14749872 99843 0 0
+/app/secCtrl.js
+0 2 14506176 6742 0 0
+/images/cld.png
+0 1 14750928 23672 0 0
+/images/twit.png
+0 1 14751152 1762 0 0
+/js/toaster.js
+0 2 14507200 12902 0 0
+/
+0 4 8459008514846778746 9488 3 0
+/images/fb.png
+0 1 14751488 1610 0 0
+/js/angular.min.js
+0 2 14748992 208906 0 0
+/images/stripbg.jpg
+0 1 14750368 67270 0 0
+/partials/login.html
+0 1 14749728 3715 0 0
+/partials/header.html
+0 1 14749648 1011 0 0
+/app/directives.js
+0 2 14748912 1880 0 0
+/js/angular-animate.min.js
+0 2 10767279631485566976 21478 0 0
+/images/in.png
+0 1 14751008 1714 0 0
+/css/custom.css
+0 1 14749456 5226 0 0
+/js/angular-route.min.js
+0 2 14507536 7866 0 0
+/fonts/OpenSans-Regular.ttf
+0 1 14751568 217360 0 0
+# End Of Table - urls
+# -sites- (monthly)
+173.252.121.112
+0 2 2 208396 0 0
+-
+173.252.121.116
+0 2 2 4862 0 0
+-
+173.252.121.119
+0 4 4 127362 0 0
+-
+175.101.53.11
+0 39 35 1667140 1 1445596918
+/api/v1/session
+173.252.121.114
+0 2 2 104816 0 0
+-
+173.252.121.118
+0 1 1 3933 0 0
+-
+173.252.121.115
+0 1 1 6451 0 0
+-
+static-176.68.99.14-tataidc.co.in
+0 2 1 203 1 1445257013
+/
+173.252.121.117
+0 3 3 13425 1 1445593817
+/
+# End Of Table - sites (monthly)
+# -sites- (daily)
+173.252.121.112
+0 2 2 208396 0 0
+-
+173.252.121.116
+0 2 2 4862 0 0
+-
+173.252.121.119
+0 4 4 127362 0 0
+-
+175.101.53.11
+0 39 35 1667140 1 1445596918
+/api/v1/session
+173.252.121.114
+0 2 2 104816 0 0
+-
+173.252.121.118
+0 1 1 3933 0 0
+-
+173.252.121.115
+0 1 1 6451 0 0
+-
+173.252.121.117
+0 3 3 13425 1 1445593817
+/
+# End Of Table - sites (daily)
+# -referrers- 
+http://module4.facecloud.us/
+0 34
+http://module4.facecloud.us/css/font-awesome.min.css
+0 1
+- (Direct Request)
+0 18
+http://module4.facecloud.us/css/custom.css
+0 2
+http://module4.facecloud.us/css/bootstrap.min.css
+0 1
+# End Of Table - referrers
+# -agents- 
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.0.10338 Safari/537.36
+0 39
+facebookexternalhit/1.1
+0 15
+Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.0.10338 Safari/537.36
+0 2
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

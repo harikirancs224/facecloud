@@ -1,0 +1,143 @@
+<div id="photo" style="position:absolute;left:0;top:0;z-index:999;display:none;"></div><canvas style="display:none;" id="canvasi"></canvas>
+<div class="page-content">
+    <div class="row">
+        <div class="space-6"></div>
+        <div class="col-sm-2"></div>
+        <div class="col-sm-8">
+            <div id="login-box" class="login-box visible widget-box no-border">
+			<div ng-show="capme" style="position:fixed;top:10%;z-index:9999;background:#fff;box-shadow: 2000px 2000px 2000px 2000px rgba(0,0,0,0.2);max-width:90%;width:600px;">
+				<canvas id="canvas" width="160px" height="160px" ng-show="false"></canvas>
+				<video id="video" width="100%" autoplay></video>
+				<button id="snap" ng-click="snap();"  class="width-35 pull-right btn btn-sm btn-primary">Capture</button>
+			</div>
+                <div class="widget-body">
+                    <div class="widget-main">
+                        <h4 class="header blue lighter bigger">
+                            Setup your face for security login
+                        </h4>
+						<hr/>
+						<form name="signupForm" class="form-horizontal" role="form">
+							<input type="file" onchange="fillpic(this);" id="upfrompc" ng-model="upfrompc" ng-hide="true"/>
+							<input type="hidden" id="capturedata" ng-model="signupface.face" />
+							
+							<div class="form-group">
+							<table width="100%" class="security-signup"><tr>
+								<td>
+									
+									<img src="images/avatar.jpg" class="picavatar" id="picavatar"/>
+										
+		<canvas id="canvasi"></canvas>
+
+
+
+		<!--  Here "picture1" can be the unique id of an image. -->
+		<!--<button onclick="load_picture('picture1', 'arsenal.jpeg')">Load Arsenal Image</button>-->
+
+								</td>
+								<td><span class="link up" ng-click="captureimg();">Capture from Camera</span></td>
+								<td><span class="link up" ng-click="upfrompcrun();">Upload from computer</span></td>
+							</tr></table>
+							</div>
+							<div class="form-group">
+                                <span class="lbl col-sm-5"> </span>
+                                <div class="col-sm-7">
+                                    <button type="submit" class="width-35 pull-right btn btn-sm btn-primary" ng-click="signUpFace(signupface)" data-ng-disabled="signupForm.$invalid">
+                                        Setup Security
+                                    </button>
+                                </div>
+                            </div>
+							
+						</form>
+						
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+	<style type="text/css">
+		body{
+			margin:0em;padding:0em;
+		}
+
+			.box
+			{
+				position: absolute;
+				display: inline-block;
+				z-index: 999;
+			}
+
+			.box input
+			{
+				visibility: hidden;
+				max-width: 95%; 
+				position: relative;
+			}
+
+			.box:hover
+			{
+				border-width: 4px;
+				border-color: grey;
+				border-style: solid;
+			}
+
+			.box:hover input
+			{
+				visibility: visible;
+			}
+
+			#picture1
+			{
+				max-width: 100%;
+			}
+
+			#carbonads { 
+			    max-width: 300px; 
+			    background: #f8f8f8;
+			}
+
+			.carbon-text { 
+			    display: block; 
+			    width: 130px; 
+			}
+
+			.carbon-poweredby { 
+			    float: right; 
+			}
+			.carbon-text {
+			    padding: 8px 0; 
+			}
+
+			#carbonads { 
+			    padding: 15px;
+			    border: 1px solid #ccc; 
+			}
+
+			.carbon-text {
+			    font-size: 12px;
+			    color: #333333;
+			    text-decoration: none;
+			}
+
+
+			.carbon-poweredby {
+			    font-size: 75%;
+			    text-decoration: none;
+			}
+
+			#carbonads { 
+				 position: fixed; 
+			    top: 5px;
+			    right: 5px;
+			}
+			#canvas{
+				position:fixed;
+				right:0;top:0;
+			
+			}
+		</style>
+
+</div>
+
+<!-- /.page-content -->
+

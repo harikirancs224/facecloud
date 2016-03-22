@@ -1,0 +1,72 @@
+<div class="page-content noselect">
+    <div class="row">
+        <div class="space-6"></div>
+        <div class="col-sm-2">
+			<div ng-include="'partials/_sidebar5.html?v2'"></div>
+		</div>
+        <div class="col-sm-10">
+            <div id="login-box" class="login-box visible widget-box no-border no-padding">
+				<div class="striplinks padding"><span class="link" ng-click="newfolder();">New Folder</span> |<label for="file"> Upload File </label> | <span class="link" ng-click="deletefilefolder();"> Delete </span> | <span class="link" ng-click="reload();"> Reload </span>
+					<form id="form" action="" method="post" enctype="multipart/form-data" ng-hide="true">
+						<input type="file" file="file" name="file" id="file" ng-model="file" onchange="javascript:document.getElementById('upme').click();"/> <button ng-click="uploadFile()" type="submit" id="upme">upload me</button>
+						<input type="text" name="under" ng-model="underfolder"/>{{ir}}
+					</form>
+					<div id="preview" ng-hide="true;"></div>
+				</div>
+                <div class="widget-body">
+                    <div class="widget-main">
+						
+						<ul class="explore">
+							
+							<li> <span class="link" ng-click="stepback();"><i class="fa fa-mail-reply"></i>...</li></span>
+							<li ng-repeat="x in listner" data-ng-disabled="x.status == 'pending'" ng-class="{pending:'opacityoff', '':'normal'}[x.status]">
+								<div class="row">
+									<div class="col-md-7">
+									<span init="isselect(x);" ng-click="selectType(x)" class="queue-selector queue-text-margin">
+    <i ng-class="{'true' : 'fa-check-square-o', false:'fa-square-o'}[x.selected]" class="fa fa-square-o fa-check-square-o"></i></span>
+									<!--<label>
+										<i class="fa fa-square-o" ng-if="status == 'inactive'"></i>
+										<i class="fa fa-check-square-o"></i>
+										<input type="checkbox" class="" ng-show="false;"/> 
+									</label>-->
+									&nbsp;&nbsp;
+									<a href="#/files/{{auth}}?router={{x.link}}" ng-click="exploreme(x);" ng-if="x.status != 'pending'">
+										<i class="fa {{infilefolder(x);}}{{incls(x);}}"></i>&nbsp;{{x.folder}}
+										<i ng-if="x.status == 'pending'" class="pull-right">{{x.status}}</i>
+									</a>
+									<span data-ng-if="x.type != 'folder' && x.status == 'pending'">
+									<i class="fa {{infilefolder(x);}}{{incls(x);}}"></i>&nbsp;{{x.folder}}
+									<i ng-if="x.status == 'pending'" class="pull-right">{{x.status}}</i>
+									</span>
+									
+									</div>
+									<div class="col-md-1">{{x.type}}</div>
+									<div class="col-md-1">{{x.size}}</div>
+									<div class="col-md-2">{{x.date}}</div>
+									<div class="col-md-1">
+										<a ng-click="download(x.download);" ng-if="x.status != 'pending'">
+											<i data-ng-if="x.type != 'folder'" class="fa fa-cloud-download"></i>
+										</a>
+										<i data-ng-if="x.type != 'folder' && x.status == 'pending'" class="fa fa-cloud-download"></i>
+									</div>
+								</div>
+							</li>
+							
+						</ul>
+                       <!-- <h4 class="header blue lighter bigger">
+						<i class="icon-coffee green"></i>
+							User Authenticated
+						</h4>
+                        <div class="space-16"></div>
+                        UID: {{uid}}
+                        <br/>NAME: {{name}}
+                        <br/>E-MAIL: {{email}}
+                        <br/>
+                        <a ng-click="logout();">Logout</a>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /.page-content -->

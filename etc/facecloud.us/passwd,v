@@ -1,0 +1,54 @@
+head	1.3;
+access;
+symbols;
+locks
+	yksabr8:1.3; strict;
+comment	@# @;
+
+
+1.3
+date	2016.01.11.05.17.12;	author yksabr8;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2015.10.09.04.12.05;	author yksabr8;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2015.10.09.04.12.05;	author yksabr8;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@"Modified by /usr/local/cpanel/cpanel "
+@
+text
+@connect:x:8734:8731::/home/yksabr8/mail/facecloud.us/connect:/home/yksabr8
+harikirancs224:x:8734:8731::/home/yksabr8/mail/facecloud.us/harikirancs224:/home/yksabr8
+@
+
+
+1.2
+log
+@"Modified by /usr/local/cpanel/cpanel "
+@
+text
+@d2 1
+@
+
+
+1.1
+log
+@"Modified by /usr/local/cpanel/cpanel "
+@
+text
+@d1 1
+@
