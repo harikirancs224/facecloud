@@ -227,36 +227,121 @@ app.controller('step3Ctrl', function ($scope, $rootScope, $routeParams, $locatio
 		a++;
 		$timeout(function(){
 			var cme=parseInt($scope.scorefor);
-			if(a>29){ $scope.ccolor="green"; }
+			if(a>45){ $scope.ccolor="orange"; }
+			if(a>90){ $scope.ccolor="green"; }
+			
 			if(a<cme){
 				$scope.incr(a);
 			}else{
-				if(a>29){
-					alert(cme+" percent matched!");
+				if(a>90){
+					//alert(cme+" percent matched!");
+					
 					$location.path("/files/Auth");
 				}
 			}
 		},100);
 	};
-	
-	$scope.randomepic = function(){
-		var myArray = ['23', '68', '27', '93', '5', '34', '81', '14'];  
+	$scope.opic={};
+	$scope.dpic={};
+	/* $scope.randomepic = function(){
+		var myArray = ['4', '23', '68', '27', '93', '5', '34', '81', '14'];  
 		var rand = myArray[Math.floor(Math.random() * myArray.length)];
 		return rand;
-	};
+		alert(+rand);
+	}; */
 	$scope.signInFaceScan = function(){
 		var abc = document.getElementById("capturedata").value;
 		if(abc!=""){
 			$scope.scanmode = "true";
-			var bf=$scope.randomepic();
-			$scope.scorefor=parseInt(bf);
-			$scope.incr(1);
+			
+			$scope.signupface = {face:"s",uid:"12"};
+			
+			var customer={uid:$rootScope.uid,face:abc};
+			Data.post('signUpFacep', {
+				customer: customer
+			}).then(function (results) {
+				//Data.toast(results);
+				if (results.status == "success") {
+					//$location.path('security-signup');
+					//$location.path('dashboard');
+					
+					var client = new FCClientJS('3208223b92ce411eb58723a0d27a00cb', 'a748918d8a794f84b593d48dbf132ea1');
+					var options = new Object();
+					options.detect_all_feature_points = true;
+					client.facesDetect("http://www.facecloud.us/pic/?uid="+$rootScope.uid, null, options, $scope.opicval);
+					
+				}
+			});
+			
+			
+			
+			
+			
+			
 		}else{
 			alert("Photo not captured.");
 			
 		}
 	};
 	
+	$scope.opicval = function(data){
+		
+		var fb=data.photos[0];
+		$scope.opic={eye_leftx:fb.tags[0].eye_left.x, eye_lefty:fb.tags[0].eye_left.y, eye_rightx:fb.tags[0].eye_right.x, eye_righty:fb.tags[0].eye_right.y, mouthx:fb.tags[0].mouth_center.x, mouthy:fb.tags[0].mouth_center.y, nosex:fb.tags[0].nose.x, nosey:fb.tags[0].nose.y};
+		
+		var client = new FCClientJS('3208223b92ce411eb58723a0d27a00cb', 'a748918d8a794f84b593d48dbf132ea1');
+		var options = new Object();
+		options.detect_all_feature_points = true;
+		//client.facesDetect("https://lh3.googleusercontent.com/-rTAW36HfoE0/AAAAAAAAAAI/AAAAAAAADco/AJpJa-rKsto/photo.jpg", null, options, $scope.sscalback);
+		client.facesDetect("http://www.facecloud.us/pic/?pp&uid="+$rootScope.uid, null, options, $scope.sscalback);
+	};
+	$scope.sscalback = function(data){
+		
+		var fb=data.photos[0];
+		try {
+			$scope.dpic={eye_leftx:fb.tags[0].eye_left.x, eye_lefty:fb.tags[0].eye_left.y, eye_rightx:fb.tags[0].eye_right.x, eye_righty:fb.tags[0].eye_right.y, mouthx:fb.tags[0].mouth_center.x, mouthy:fb.tags[0].mouth_center.y, nosex:fb.tags[0].nose.x, nosey:fb.tags[0].nose.y};
+		}catch(err) {
+			alert("Captured photo is not valid");
+			return '';
+		}
+		
+		
+		var a = ($scope.dpic.eye_leftx/$scope.opic.eye_leftx)*100;
+		var b = ($scope.dpic.eye_lefty/$scope.opic.eye_lefty)*100;
+		var c = ($scope.dpic.eye_rightx/$scope.opic.eye_rightx)*100;
+		var d = ($scope.dpic.eye_righty/$scope.opic.eye_righty)*100;
+		
+		var e = ($scope.dpic.mouthx/$scope.opic.mouthx)*100;
+		var f = ($scope.dpic.mouthy/$scope.opic.mouthy)*100;
+		
+		var g = ($scope.dpic.nosex/$scope.opic.nosex)*100;
+		var h = ($scope.dpic.nosey/$scope.opic.nosey)*100;
+		
+		
+		$scope.matchp = {eyeleftx:a,eyelefty:b,eyerightx:c,eyerighty:d,mouthx:e,mouthy:f,nosex:g,nosey:h};
+		$scope.fresult = {lefteye:a+','+b+' Matched',righteye:c+','+d+' Matched',mouth:e,mouthy:f,nosex:g,nosey:h};
+		var fg=((a+b+c+d+e+f+g+h)/800)*100;
+		
+		var bf=fg;//$scope.randomepic();
+		$scope.scorefor=parseInt(bf);
+		$scope.incr(1);
+		if($scope.scorefor>100) $scope.scorefor=100;
+		var customer={uid:$rootScope.uid,face:abc};
+		
+		if($scope.scorefor>90){
+			Data.post('step3', {
+				customer: customer
+			}).then(function (results) {
+				//Data.toast(results);
+				if (results.status == "success") {
+					
+				}
+			});
+		}
+					
+		alert(fg+"% Matched,\n Brief: "+JSON.stringify($scope.matchp));
+		//$location.path("/files/Auth");
+	};
 	
 	
 	$scope.upfrompcrun=function(){
@@ -274,7 +359,7 @@ app.controller('step3Ctrl', function ($scope, $rootScope, $routeParams, $locatio
 	}, function() {
 	  // webcam is not available
 		alert("webcam is not available.\n  please wait... \n We are redirecting you to dashboard");
-		$location.path("/files/Auth");
+		//$location.path("/files/Auth");
 	});
 
 	$scope.captureimg=function(){
@@ -409,5 +494,76 @@ app.controller('step3Ctrl', function ($scope, $rootScope, $routeParams, $locatio
 
 		//alert("Move your mouse over the faces to see the face detection and tagging");
 	}
+	
+	
+	function drawFacesAddPoint(control, imgWidth, imgHeight, point, title) {
+		var x = Math.round(point.x * imgWidth / 100);
+		var y = Math.round(point.y * imgHeight / 100);
+		var pointClass = title == null ? "api_face_all_point" : "api_face_point";
+		var pointStyle = 'top: ' + y + 'px; left: ' + x + 'px;';
+		var pointTitle = (title == null ? '' : title + ': ') + 'X=' + x + ', Y=' + y + ', Confidence=' + point.confidence + '%' + (title == null ? ', Id=' + point.id.toString(16) : '');
+		control.append($('<span class="' + pointClass + '" style="' + pointStyle + '" title="' + pointTitle + '"></span>'));
+	}
+	function drawFaces(div, photo, drawPoints) {
+		if (!photo) {
+			alert("No image found");
+			return;
+		}
+		if (photo.error_message) {
+			alert(photo.error_message);
+			return;
+		}
+		var imageWrapper = $('<div class="image_wrapper"></div>').appendTo(div);
+		var maxImgWidth = parseInt(div.prev().children(".img_max_width").html(), 10);
+		var maxImgHeight = parseInt(div.prev().children(".img_max_height").html(), 10);
+		var imgWidth = photo.width;
+		var imgHeight = photo.height;
+		var scaleFactor = Math.min(maxImgWidth / imgWidth, maxImgHeight / imgHeight);
+		if (scaleFactor < 1) {
+			imgWidth = Math.round(imgWidth * scaleFactor);
+			imgHeight = Math.round(imgHeight * scaleFactor);
+		}
+		imageWrapper.append($('<img alt="face detection results" width="' + imgWidth + 'px" height="' + imgHeight + 'px" src="' + photo.url + '" />'));
+		if (photo.tags) {
+			for (var i = 0; i < photo.tags.length; ++i) {
+				var tag = photo.tags[i];
+				var tagWidth = tag.width * 1.5;
+				var tagHeight = tag.height * 1.5;
+				var width = Math.round(tagWidth * imgWidth / 100);
+				var height = Math.round(tagHeight * imgHeight / 100);
+				var left = Math.round((tag.center.x - 0.5 * tagWidth) * imgWidth / 100);
+				var top = Math.round((tag.center.y - 0.5 * tagHeight) * imgHeight / 100);
+				if (drawPoints && tag.points) {
+					for (var p = 0; p < tag.points.length; p++) {
+						drawFacesAddPoint(imageWrapper, imgWidth, imgHeight, tag.points[p], null);
+					}
+				}
+				var tagStyle = 'top: ' + top + 'px; left: ' + left + 'px; width: ' + width + 'px; height: ' + height + 'px; transform: rotate(' +
+					tag.roll + 'deg); -ms-transform: rotate(' + tag.roll + 'deg); -moz-transform: rotate(' + tag.roll + 'deg); -webkit-transform: rotate(' +
+					tag.roll + 'deg); -o-transform: rotate(' + tag.roll + 'deg)';
+				var apiFaceTag = $('<div class="api_face" style="' + tagStyle + '"><div class="api_face_inner"><div class="api_face_inner_tid" name="' + tag.tid + '"></div></div></div>').appendTo(imageWrapper);
+				if (drawPoints) {
+					if (tag.eye_left) drawFacesAddPoint(imageWrapper, imgWidth, imgHeight, tag.eye_left, "Left eye");
+					if (tag.eye_right) drawFacesAddPoint(imageWrapper, imgWidth, imgHeight, tag.eye_right, "Right eye");
+					if (tag.mouth_center) drawFacesAddPoint(imageWrapper, imgWidth, imgHeight, tag.mouth_center, "Mouth center");
+					if (tag.nose) drawFacesAddPoint(imageWrapper, imgWidth, imgHeight, tag.nose, "Nose tip");
+				}
+			}
+		}
+	}
+	function callback(data) {
+		//drawFaces($("#conent_demo_image"), data.photos[0], true);
+		var fb=data.photos[0];
+		alert("EYE LEFT x:"+fb.tags[0].eye_left.x+" Y:"+fb.tags[0].eye_left.y);
+		alert("EYE RIGHT x:"+fb.tags[0].eye_right.x+" Y:"+fb.tags[0].eye_right.y);
+		alert("mouth_center x:"+fb.tags[0].mouth_center.x+" Y:"+fb.tags[0].mouth_center.y);
+		alert("nose x:"+fb.tags[0].nose.x+" Y:"+fb.tags[0].nose.y);
+		//alert(JSON.stringify(fb.tags[0].mouth_center));
+		//alert(JSON.stringify(fb.tags[0].nose));
+		//alert(JSON.stringify(fb.tags[0]));
+		
+		//window.location=JSON.stringify(fb);
+	}
+				
 	
 });
